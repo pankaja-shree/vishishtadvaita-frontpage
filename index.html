@@ -61,7 +61,7 @@
                         <a class="page-scroll" href="#pramatha">Pramatha</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#search">Search</a>
+                        <a class="page-scroll" href="#search" data-toggle="modal" data-target="#login">Login</a>
                          <!-- <a href="#" class="pull-left"><img src="img/SF-logo.png" width="35%"></a>  -->
                     </li>
                 </ul>
@@ -71,6 +71,43 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+    <!-- Modal -->
+<div id="login" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Log in</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="username" type="text" class="form-control" name="username" placeholder="Username">
+        </div><br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+        </div><br>
+        <div class="form-group"> 
+            <div class="col-sm-12 text-center">
+            <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+        </div>
+        
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
      <header>
         <div class="header-content">
@@ -170,23 +207,6 @@ Search </button>
                     </a>
                 </div>
 				</div>
-    </section>
-
-
-    <section id="search" class="search">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 text-center">
-                    <h2 class="section-heading">Search Jnanashwattha</h2>
-                    <hr class="primary">
-                    <form class="form-group">
-                        <input class="form-control" type = "text" placeholder="Search about Vishishtadvaita and Srivaishnavism">
-                        <br><button class="btn btn-primary search-btn" type = "submit" value = "search"> <i class="fa fa-search" aria-hidden="true"></i>
-Search </button>
-                    </form>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- jQuery -->
