@@ -455,3 +455,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBo
 .tamil{
   font-family: 'Arima Madurai', cursive;
 }
+
+.search-section{
+  line-height: 2em;
+}
